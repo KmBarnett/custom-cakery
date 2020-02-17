@@ -22,7 +22,7 @@ document.querySelector(".close").addEventListener("click", () => {
 
 if (document.querySelector("#landing")) {
   document.querySelector(".landing-image").addEventListener("click", () => {
-    window.location.href = 'order.html'
+    window.location.href = 'gallery.html'
   })
 }
 
@@ -34,7 +34,7 @@ if (document.querySelector("#order")) {
 
   window.setTimeout(() => {
    showModal();
-  }, 5000);
+  }, 5);
 
   const hideModal = () => {
    modal.classList.remove("active")
@@ -48,7 +48,7 @@ if (document.querySelector("#order")) {
 
   document.querySelector(".modal-button").addEventListener("click", () => {
     if (document.querySelector(".modal-email-field").value) {
-      document.querySelector(".modal-content").innerHTML = 
+      document.querySelector(".modal-content").innerHTML =
       "<h3>Your coupon code is <span class='green'>cakelovers</span></h3>"
     }
   })

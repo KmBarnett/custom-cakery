@@ -1,6 +1,6 @@
 /********************************* NATIVE ELS & GENERAL STYLES *********************************/
 
-/* Colors #1C448E, #23C9FF, #FF595E, #331E36, #FFEOB5 */
+/* Colors #1C448E, #23C9FF, #D72287, #331E36, #FFEOB5 */
 
 html, body {
   color: #331E36;
@@ -28,7 +28,7 @@ a {
 }
 
 article a {
-  color: #FF595E;
+  color: #D72287;
 }
 
 .links a {
@@ -46,10 +46,6 @@ form {
 
 input[type="text"], input[type="number"], textarea {
   width: 100%;
-}
-
-input:focus {
-  outline: none!important;
 }
 
 button {
