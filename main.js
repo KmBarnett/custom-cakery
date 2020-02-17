@@ -19,13 +19,6 @@ document.querySelector(".close").addEventListener("click", () => {
 
 /********************************* LANDING PAGE *********************************/
 
-
-if (document.querySelector("#landing")) {
-  document.querySelector(".landing-image").addEventListener("click", () => {
-    window.location.href = 'gallery.html'
-  })
-}
-
 /********************************* ORDER PAGE *********************************/
 
 if (document.querySelector("#order")) {
