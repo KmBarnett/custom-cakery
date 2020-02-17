@@ -1,8 +1,10 @@
 /********************************* NATIVE ELS & GENERAL STYLES *********************************/
 
+/* Colors #1C448E, #23C9FF, #FF595E, #331E36, #FFEOB5 */
+
 html, body {
-  color: #576574;
-  font-size: 14px;
+  color: #331E36;
+  font-size: 1.1rem;
   margin: 0;
   font-family: 'Josefin Slab', serif;
   display: flex;
@@ -22,16 +24,20 @@ body.modal-active::after {
 }
 
 a {
-  color: #576574;
-  text-decoration: none;
+  color: #1C448E;
 }
 
-a:focus {
-  outline: none !important;
+article a {
+  color: #FF595E;
 }
+
+.links a {
+  margin: 1%;
+}
+
 
 form {
-  background-color: rgba(255, 255, 255, .7);
+  background-color: #23C9FF;
   margin-bottom: 25px;
   padding: 25px;
   width: 600px;
@@ -47,9 +53,9 @@ input:focus {
 }
 
 button {
-  background-color: #333333;
+  background-color: #23C9FF;
   border: none;
-  color: #ffffff;
+  color: #331E36;
   font-weight: 500;
   padding: 5px 15px;
   text-transform: uppercase;
@@ -79,7 +85,7 @@ h4 {
 /********************************* HEADER *********************************/
 
 .header {
-  background-color: #333333;
+  background-color: #23C9FF;
   padding: 5px 25px;
   display: flex;
   flex-direction: column;
@@ -107,14 +113,15 @@ h4 {
   display: none;
   position: absolute;
   height: 50%;
-  width: 50%;
+  width: 37%;
   top: 0;
   left: 0;
-  background-color: #ffcccc;
+  background-color: #23C9FF;
 }
 
 .menu.active {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .links {
@@ -125,14 +132,14 @@ h4 {
 
 .cake-review {
   display: block;
-  margin: 0 auto;
-  max-width: 80%;
+  width: 62%;
+    height: 50%;
 }
 
 /********************************* FOOTER *********************************/
 
 .footer {
-  background-color: #ffcccc;
+  background-color: #23C9FF;
   padding: 20px 0;
   text-align: center;
   height: 50px;
@@ -153,7 +160,7 @@ h4 {
 }
 
 .modal {
-  background-color: #ffffff;
+  background-color: #23C9FF;
   display: none;
   position: absolute;
   max-width: 300px;
@@ -194,7 +201,7 @@ h4 {
 
 .gallery-btn {
   position: absolute;
-  background-color: #ffcccc;
+  background-color: #23C9FF;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -227,14 +234,14 @@ h4 {
 }
 
 .medium-image {
-  border: dotted 20px #ffcccc;
+  border: dotted 20px #23C9FF;
   display: block;
   width: 600px;
 }
 
 .subtext {
-  color: #95a5a6;
-  font-size: 10px;
+  color: #23C9FF;
+  font-size: 1rem;
 }
 
 .margin-top--small {
